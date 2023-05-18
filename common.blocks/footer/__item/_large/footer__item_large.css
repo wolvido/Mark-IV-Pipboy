@@ -1,0 +1,6 @@
+.footer__item_large{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}

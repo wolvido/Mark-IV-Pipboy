@@ -1,0 +1,15 @@
+@import url("__item/item-specs__item.css");
+@import url("__item/_flex/item-specs__item_flex.css");
+@import url("__damage-item/item-specs__damage-item.css");
+@import url("__damage-text/item-specs__damage-text.css");
+@import url("__crosshair-icon/item-specs__crosshair-icon.css");
+@import url("__points/item-specs__points.css");
+@import url("__ammo-icon/item-specs__ammo-icon.css");
+
+.item-specs{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 80%;
+}

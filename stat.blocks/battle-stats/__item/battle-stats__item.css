@@ -1,0 +1,7 @@
+.battle-stats__item{
+    background-color: #8efe2c34;
+    border: #1c201a solid;
+    border-width: 0px 2px 0px 2px;
+    display: flex;
+    flex-direction: column;
+}

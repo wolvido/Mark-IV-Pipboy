@@ -1,0 +1,5 @@
+.header__sub-nav-inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 10vw;
+}

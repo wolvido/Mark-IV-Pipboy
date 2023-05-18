@@ -4,81 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PipBoy Mark IV UI</title>
-    <link href="css/main.css" rel="stylesheet">
+
+    <link href="common.blocks/common.blocks.css" rel="stylesheet">
+    <link href="stat.blocks/stat.blocks.css" rel="stylesheet">
+    <link href="css/tbd.css" rel="stylesheet">
 </head>
 
-<body>
-<header>
-    <nav class="main-nav">
-        <menu class = "main-nav__list">
-            <div class = "center flex-container">
-                <li class="main-nav__item active">
-                    <a class="main-nav__link" href="#">STAT</a></li>
-                <li class="main-nav__item ">
-                    <a class="main-nav__link " href="#">INV</a></li>
-                <li class="main-nav__item ">
-                    <a class="main-nav__link" href="#">DATA</a></li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="#">MAP</a></li>
-                <li class="main-nav__item"> 
-                    <a class="main-nav__link" href="#">RADIO</a></li>
-            </div>
-        </menu>
+<body class="page">
+
+<header class="header">
+    <nav class="header__main-nav">
+        <div class = "header__main-nav-inner">
+            <li class="header__item header__item_main header__item_active">
+                <a class="header__link" href="index.html">STAT</a></li>
+            <li class="header__item header__item_main">
+                <a class="header__link" href="inventory.html">INV</a></li>
+            <li class="header__item header__item_main">
+                <a class="header__link" href="#">DATA</a></li>
+            <li class="header__item header__item_main">
+                <a class="header__link" href="#">MAP</a></li>
+            <li class="header__item header__item_main "> 
+                <a class="header__link" href="#">RADIO</a></li>
+        </div>
     </nav>
 
-    <nav class="second-nav">
-        <menu class = "second-nav__list">
-            <div class = "flex-container xxx-small">
-                <li class="second-nav__item">
-                    <a class="second-nav__link" href="#">STATUS</a></li>
-                <li class="second-nav__item">
-                    <a class="second-nav__link" href="#">SPECIAL</a></li>
-                <li class="second-nav__item">
-                    <a class="second-nav__link" href="#">PERK</a></li>
-            </div>
-        </menu>
+    <nav class="header__sub-nav">
+        <div class = "header__sub-nav-inner">
+            <li class="header__item header__item_sub">
+                <a class="header__link" href="#">STATUS</a></li>
+            <li class="header__item header__item_sub">
+                <a class="header__link" href="#">SPECIAL</a></li>
+            <li class="header__item header__item_sub">
+                <a class="header__link" href="#">PERK</a></li>
+        </div>
     </nav>
 </header>
 
 <main>
     <section class="pipboy-stats">
-        <div class="pipboy-stats__top lvl-progress tiny">
-            <div class="lvl-progress--indicator"></div>
+        <div class="pipboy-stats__top lvl-bar">
+            <div class="lvl-bar__progress"></div>
         </div>
 
-        <div class="pipboy-stats__top-left lvl-progress tiny">
-            <div class="lvl-progress--indicator"></div>
+        <div class="pipboy-stats__top-left lvl-bar">
+            <div class="lvl-bar__progress"></div>
         </div>
 
-        <div class="pipboy-stats__bottom-left lvl-progress tiny">
-            <div class="lvl-progress--indicator"></div>
+        <div class="pipboy-stats__bottom-left lvl-bar">
+            <div class="lvl-bar__progress"></div>
         </div>
 
-        <div class="pipboy-stats__top-right lvl-progress tiny">
-            <div class="lvl-progress--indicator"></div>
+        <div class="pipboy-stats__top-right lvl-bar">
+            <div class="lvl-bar__progress"></div>
         </div>
 
-        <div class="pipboy-stats__bottom-right lvl-progress tiny">
-            <div class="lvl-progress--indicator"></div>
+        <div class="pipboy-stats__bottom-right lvl-bar">
+            <div class="lvl-bar__progress"></div>
         </div>
 
-        <div class="pipboy-stats__bottom lvl-progress tiny">
-            <div class="lvl-progress--indicator"></div>
+        <div class="pipboy-stats__bottom lvl-bar">
+            <div class="lvl-bar__progress"></div>
         </div>
 
-        <img class = "pipboy-stats__img" src="assets/pipboy.png"/> 
+        <img class = "pipboy-stats__img" src="stat.blocks/pipboy-stats/__img/pipboy.png"/> 
+    </section>
+
+    <section class="battle-stats">
+        <span class="battle-stats__section">
+            <span class="battle-stats__item battle-stats__item_gun">
+                <img src="stat.blocks/battle-stats/__gun-icon/gun-icon.png" class="battle-stats__gun-icon ">
+            </span>
+            <span class="battle-stats__item battle-stats__item_damage">
+                <img src="stat.blocks/battle-stats/__crosshair-icon/crosshair.png" class="battle-stats__crosshair-icon ">
+                <div class="battle-stats__points">18</div>
+            </span>
+        </span>
+
+        <span class="battle-stats__section">
+            <span class="battle-stats__item battle-stats__item_helmet">
+                <img src="stat.blocks/battle-stats/__helmet-icon/ww2helmet.png" class="battle-stats__helmet-icon ">
+            </span>
+            <span class="battle-stats__item battle-stats__item_energy">
+                <img src="stat.blocks/battle-stats/__energy-icon/charge.png" class="battle-stats__energy-icon ">
+                <div class="battle-stats__points">5</div>
+            </span>
+            <span class="battle-stats__item battle-stats__item_radiation">
+                <img src="stat.blocks/battle-stats/__radiation-icon/radioactive.png" class="battle-stats__radiation-icon ">
+                <div class="battle-stats__points">10</div>
+            </span>
+        </span>
+    </section>
+
+    <section class="character-name">
+        <p class="character-name__inner">Winzyl</p>
     </section>
 </main>
 
-<footer>
-    <span class="footer__hp">HP 80/105</span>
-    <span class="footer__lvl">
+<footer class="page__footer footer">
+    <span class="footer__item">HP 80/105</span>
+    <span class="footer__item footer__item_large">
         <span>LEVEL 1</span>
-        <span class = "lvl-progress"> 
-            <span class="lvl-progress--indicator"></span>
+        <span class = "lvl-bar"> 
+            <span class="lvl-bar__progress"></span>
         </span>
     </span>
-    <span class="footer__ap">AP 100/100</span>
+    <span class="footer__item">AP 100/100</span>
 </footer>
 
 </body>

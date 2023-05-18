@@ -1,0 +1,6 @@
+.footer__weight-icon{
+    filter: invert(100%) sepia(100%) hue-rotate(40deg) saturate(16);
+    height:22px;
+    float: left;
+    margin-right: 4px;
+}

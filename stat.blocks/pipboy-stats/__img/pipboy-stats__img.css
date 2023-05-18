@@ -1,0 +1,9 @@
+.pipboy-stats__img{
+    display: block;
+    position: relative;
+    max-height: 320px;
+    transform: scaleX(-1);
+    filter: sepia(100%) hue-rotate(40deg) saturate(16);
+    grid-area: stat-row2 / stat-col2 / stat-row3 / stat-col2 ;
+    place-self: start center;
+}

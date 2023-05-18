@@ -1,0 +1,5 @@
+.pipboy-stats__top{
+    grid-area: stat-row1/stat-col2;
+    place-self: center;
+    width: 5vw;
+}

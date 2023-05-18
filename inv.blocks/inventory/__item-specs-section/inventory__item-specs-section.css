@@ -1,0 +1,7 @@
+.inventory__item-specs-section{
+    flex-basis: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+}

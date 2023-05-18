@@ -1,0 +1,12 @@
+.header__item_sub{
+    border: 1px solid transparent;
+    list-style-type: none;
+}
+
+.header__item_sub:nth-child(3){
+    opacity: .3;
+}
+
+.header__item_sub:nth-child(2){
+    opacity: .5;
+}

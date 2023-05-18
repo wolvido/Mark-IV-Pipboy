@@ -1,0 +1,6 @@
+.footer__caps-icon{
+    height: 25px;
+    float: left;
+    filter: sepia(100%) hue-rotate(40deg) saturate(13);
+    margin-right: 4px;
+}

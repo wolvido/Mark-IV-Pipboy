@@ -1,0 +1,8 @@
+.item-specs__item{
+    background-color:#8efe2c34;
+    color:#78ff05;
+    border:solid #1c201a;
+    border-width: 2px 0px 2px 0px;
+    font-size: 20px;
+    padding-left: 5px;
+}

@@ -1,0 +1,23 @@
+.header__main-nav{
+    margin: 10px;
+    border-bottom: 2px solid #78ff05;
+    font-weight: bold;
+}
+
+.header__main-nav::before, .header__main-nav::after{
+    height: 7px;
+    width: 2px;
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #78ff05;
+}
+
+.header__main-nav::after{
+    right: 16.5px;
+}
+
+.header__main-nav::before{
+    left: 16.5px;
+    top: 37.5px;
+}

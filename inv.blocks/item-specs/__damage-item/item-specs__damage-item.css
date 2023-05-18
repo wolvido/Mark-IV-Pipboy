@@ -1,0 +1,7 @@
+.item-specs__damage-item{
+    flex-basis: max-content;
+    border:solid #1c201a;
+    border-width: 0px 0px 0px 3px;
+    display:flex;
+    align-items: center;
+}

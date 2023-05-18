@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PipBoy Mark IV UI</title>
+
+    <link href="common.blocks/common.blocks.css" rel="stylesheet">
+    <link href="inv.blocks/inv.blocks.css" rel="stylesheet">
+
+    <link href="css/tbd.css" rel="stylesheet">
+
+    <script src="library.blocks/jquery-3.6.4/jquery-3.6.4.js" async></script>
+    <script src="inv.blocks/inventory/inventory.js" async></script>
+</head>
+
+<body class="page">
+
+<header class="header">
+    <nav class="header__main-nav">
+        <div class = "header__main-nav-inner">
+            <li class="header__item header__item_main">
+                <a class="header__link" href="index.html">STAT</a></li>
+            <li class="header__item header__item_main header__item_active">
+                <a class="header__link" href="inventory.html">INV</a></li>
+            <li class="header__item header__item_main">
+                <a class="header__link" href="#">DATA</a></li>
+            <li class="header__item header__item_main">
+                <a class="header__link" href="#">MAP</a></li>
+            <li class="header__item header__item_main "> 
+                <a class="header__link" href="#">RADIO</a></li>
+        </div>
+    </nav>
+
+    <nav class="header__sub-nav">
+        <div class = "header__sub-nav-inner">
+            <li class="header__item header__item_sub">
+                <a class="header__link" href="#">STATUS</a></li>
+            <li class="header__item header__item_sub">
+                <a class="header__link" href="#">SPECIAL</a></li>
+            <li class="header__item header__item_sub">
+                <a class="header__link" href="#">PERK</a></li>
+        </div>
+    </nav>
+</header>
+
+<main class="inventory">
+    <section class = "inventory__item-menu-section">
+        <menu class = "inventory__item-menu item-menu">
+            <li>
+                <button class="44-pistol item-menu__button item-menu__button_active">.44-Pistol</button></li>
+            <li>
+                <button class="10mm-pistol item-menu__button">10mm Pistol</button></li>
+            <li>
+                <button class="assault-rifle item-menu__button">Assault Rifle</button></li>
+        </menu>
+    </section>
+
+    <section class="inventory__item-specs-section">
+        <ul class="inventory__item-specs item-specs">
+            <li class="item-specs__item">
+                lorumopsi lorumopsi lorumopsi lorumopsi lorumopsi lorumopsi lorumopsi lorum
+            </li>
+            <li class="item-specs__item item-specs__item_flex inventory__item_damage">
+                <span class="item-specs__damage-text">Damage</span>
+                <span class="item-specs__damage-item">
+                    <img src="inv.blocks/item-specs/__crosshair-icon/crosshair.png" class="item-specs__crosshair-icon"></img>
+                    <span class="item-specs__points">48</span>
+                </span>
+            </li>
+            <li class="item-specs__item">
+                <img src="inv.blocks/item-specs/__ammo-icon/ammo.png" class="item-specs__ammo-icon"></img>
+                <span class="item-specs__ammo-type">.54</span>
+                <span class="item-specs__points">60</span>
+            </li>
+            <li class="item-specs__item inventory__item_fire-rate">
+                Fire rate <span class="item-specs__points">6</span>
+            </li>
+            <li class="item-specs__item inventory__item_range">
+                Range <span class="item-specs__points">119</span>
+            </li>
+            <li class="item-specs__item inventory__item_accuracy">
+                Accuracy <span class="item-specs__points">66</span>
+            </li>
+            <li class="item-specs__item inventory__item_weight">
+                Weight <span class="item-specs__points">4.2</span>
+            </li>
+            <li class="item-specs__item inventory__item_value">
+                Value <span class="item-specs__points">99</span>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<footer class="page__footer footer">
+    <span class="footer__item">
+        <img src="common.blocks/footer/__weight-icon/weight.png" class="footer__weight-icon">
+        <span>80/105</span>
+    </span>
+    <span class="footer__item">
+        <img src="common.blocks/footer/__caps-icon/Caps_currency.png" class="footer__caps-icon">
+        <span>670</span>
+    </span>
+    <span class="footer__item footer__item_large">
+        <img src="common.blocks/footer/__weapon-icon/gun-icon.png" class="footer__weapon-icon">
+        <img src="common.blocks/footer/__crosshair-icon/crosshair.png" class="footer__crosshair-icon">
+        <span>132</span>
+    </span>
+</footer>
+
+</body>
+
+</html>

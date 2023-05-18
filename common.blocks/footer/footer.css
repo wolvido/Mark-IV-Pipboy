@@ -1,0 +1,16 @@
+@import url("__item/footer__item.css");
+@import url("__item/_large/footer__item_large.css");
+
+@import url("__caps-icon/footer__caps-icon.css");
+@import url("__crosshair-icon/footer__crosshair-icon.css");
+@import url("__weapon-icon/footer__weapon-icon.css");
+@import url("__weight-icon/footer__weight-icon.css");
+@import url("__points/footer__points.css");
+
+.footer{
+    display:inline-flex;
+    width: 98.5%;
+    justify-content: center; 
+    height: 30px;
+    white-space: nowrap
+}

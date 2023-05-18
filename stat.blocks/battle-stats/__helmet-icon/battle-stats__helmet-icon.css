@@ -1,0 +1,6 @@
+.battle-stats__helmet-icon{
+    filter: invert(100%) sepia(100%) hue-rotate(40deg) saturate(16);
+    width: 50px;
+    transform: scaleX(-1);
+    margin: auto;
+}

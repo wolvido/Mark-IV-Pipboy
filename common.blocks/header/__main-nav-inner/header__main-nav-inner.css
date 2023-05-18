@@ -1,0 +1,6 @@
+.header__main-nav-inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+}

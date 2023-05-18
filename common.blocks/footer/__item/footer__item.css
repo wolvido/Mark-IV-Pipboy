@@ -1,0 +1,13 @@
+.footer__item{
+    flex-basis: 20%;
+    font-size: 23px;
+    background-color: #8efe2c34;
+    border: #1c201a solid;
+    border-width: 0px 2px 0px 2px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-right: 5px;
+    color:#78ff05;
+    font-weight: bold;
+}
+

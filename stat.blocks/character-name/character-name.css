@@ -1,0 +1,6 @@
+@import url("__inner/character-name__inner.css");
+.character-name{
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+}

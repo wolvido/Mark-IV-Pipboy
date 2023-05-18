@@ -1,0 +1,23 @@
+@import url("__crosshair-icon/battle-stats__crosshair-icon.css");
+@import url("__energy-icon/battle-stats__energy-icon.css");
+@import url("__gun-icon/battle-stats__gun-icon.css");
+@import url("__helmet-icon/battle-stats__helmet-icon.css");
+
+@import url("__item/_damage/battle-stats__item_damage.css");
+@import url("__item/_energy/battle-stats__item_energy.css");
+@import url("__item/_gun/battle-stats__item_gun.css");
+@import url("__item/_helmet/battle-stats__item_helmet.css");
+@import url("__item/_radiation/battle-stats__item_radiation.css");
+
+@import url("__item/battle-stats__item.css");
+@import url("__points/battle-stats__points.css");
+@import url("__radiation-icon/battle-stats__radiation-icon.css");
+@import url("__section/battle-stats__section.css");
+
+.battle-stats{
+    height: 60px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    column-gap: 15px;
+}

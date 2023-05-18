@@ -1,0 +1,20 @@
+@import url('__footer/page__footer.css');
+
+.page{
+    font-family: sans-serif;
+    height: 100%;
+    background:#1c201a;
+}
+
+.page::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    z-index:5000;
+    top: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(0deg, rgba(0,0,0,0.5), rgb(0, 0, 0, 0.4) 1px, transparent 1px, transparent 2px);
+    opacity: .3;
+}

@@ -1,0 +1,10 @@
+@import url("__progress/lvl-bar__progress.css");
+
+.lvl-bar{
+    position: relative;
+    height: 11px;
+    border: 2px #78ff05 solid;
+    flex-grow: 1;
+    margin: 0px 10px 0px 10px;
+}
+

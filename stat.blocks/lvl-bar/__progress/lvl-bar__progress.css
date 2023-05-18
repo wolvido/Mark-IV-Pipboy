@@ -1,0 +1,6 @@
+.lvl-bar__progress{
+    position: absolute;
+    width: 80%;
+    height: 11px;
+    background: #78ff05;
+}

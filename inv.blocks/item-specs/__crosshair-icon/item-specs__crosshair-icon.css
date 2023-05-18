@@ -1,0 +1,6 @@
+.item-specs__crosshair-icon{
+    filter: invert(100%) sepia(100%) hue-rotate(40deg) saturate(16);
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}

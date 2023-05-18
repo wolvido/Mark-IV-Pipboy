@@ -1,0 +1,17 @@
+.item-menu__button_active{
+    border: solid #78ff05;
+    background-color:#78ff05;
+    color: black;
+    position: relative;
+    width: 102%;
+    right: 16px;
+    padding-left: 19px;
+}
+
+.item-menu__button_active::before{
+    content:"";
+    position: absolute;
+    border: 4.5px solid black;
+    top: 9px;
+    left: 4.5px;
+}

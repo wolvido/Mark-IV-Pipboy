@@ -1,0 +1,12 @@
+@import url("__item-menu-section/inventory__item-menu-section.css");
+@import url("__item-menu/inventory__item-menu.css");
+
+@import url("__item-specs-section/inventory__item-specs-section.css");
+@import url("__item-specs/inventory__item-specs.css");
+
+
+.inventory{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}

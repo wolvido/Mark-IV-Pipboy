@@ -1,0 +1,23 @@
+@import url("__button/item-menu__button.css");
+
+.item-menu{
+    list-style-type: none;
+}
+
+.item-menu::before{
+    content: url("caret-double-up.svg");
+    filter: invert(100%) sepia(100%) hue-rotate(40deg) saturate(16);
+    display: block;
+    height:22px;
+    width:22px;
+    margin-bottom: 10px;
+}
+
+.item-menu::after{
+    margin-top: 20px;
+    content: url("caret-double-down.svg");
+    filter: invert(100%) sepia(100%) hue-rotate(40deg) saturate(16);
+    display: block;
+    height:22px;
+    width:22px;
+}

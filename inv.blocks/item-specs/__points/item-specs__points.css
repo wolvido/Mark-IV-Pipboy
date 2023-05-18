@@ -1,0 +1,5 @@
+.item-specs__points{
+    float: right;
+    margin-right: 5px;
+    font-weight: bold;
+}

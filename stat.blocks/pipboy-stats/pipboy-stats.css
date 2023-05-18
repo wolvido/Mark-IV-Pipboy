@@ -1,0 +1,20 @@
+@import url("__img/pipboy-stats__img.css");
+@import url("pipboy-stats__bottom-left.css");
+@import url("pipboy-stats__bottom-right.css");
+@import url("pipboy-stats__bottom.css");
+@import url("pipboy-stats__top-left.css");
+@import url("pipboy-stats__top-right.css");
+@import url("pipboy-stats__top.css");
+
+.pipboy-stats{
+    height:450px;
+    display: grid;
+    grid-template: 
+        [stat-row1]1fr 
+        [stat-row2]160px 
+        [stat-row3]160px 
+        [stat-row4]1fr / 
+        [stat-col1]1fr 
+        [stat-col2]325px 
+        [stat-col3]1fr;
+}

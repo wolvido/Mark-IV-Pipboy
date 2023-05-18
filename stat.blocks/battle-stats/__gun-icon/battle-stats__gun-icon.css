@@ -1,0 +1,7 @@
+.battle-stats__gun-icon{
+    filter: invert(100%) sepia(100%) hue-rotate(40deg) saturate(16);
+    height: 75%;
+    width: 58.375px;
+    transform: scaleX(-1);
+    margin: auto;
+}
